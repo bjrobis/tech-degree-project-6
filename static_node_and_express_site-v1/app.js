@@ -1,6 +1,7 @@
 //require installed items
 const express = require('express');
 const {projects} = require('./data.json');
+const server = require('server');
 
 //setup express app
 const app = express();
@@ -10,6 +11,9 @@ app.use('/static', express.static('public'));
 
 //set the view engine to use pug
 app.set('view engine', 'pug');
+
+//use images
+app.use('/images', express.static('images'));
 
 
 //ROUTES
@@ -25,8 +29,15 @@ app.get('/about', (req, res) => {
 
 //render dynamic project routes
 app.get('/projects/:id', (req, res) => {
-    const {id} = projects;
-    res.render('project', {id}, {projects});  
+    const url = req.url;
+    const urlNumber = url.charAt(url.length-1);
+    const id = parseFloat(urlNumber);
+    const name = projects[id].project_name;
+    const description = projects[id].description;
+    const technologies = projects[id].technologies;
+    const gitHub = projects[id].github_link;
+    const images = projects[id].images_urls;
+    res.render('project', {id, name, description, technologies, gitHub, images}); 
 });
 
 //404 Not Found Error

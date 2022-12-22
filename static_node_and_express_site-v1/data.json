@@ -2,45 +2,45 @@
     "projects": [
         {
             "id": "0",
-            "project name": "Random Quote Generator",
+            "project_name": "Random Quote Generator",
             "description": "User clicks a button to generate a random quote",
-            "technologies": ["JavaScript"],
+            "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "",
             "github_link": "https://github.com/bjrobis/tech-degree-project-1.git",
             "images_urls": ["/images/1a.jpg", "/images/1b.jpg"]
         },
         {
             "id": "1",
-            "project name": "Student Contact Directory",
+            "project_name": "Student Contact Directory",
             "description": "Data pagination and filtering",
-            "technologies": ["JavaScript"],
+            "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "",
             "github_link": "https://github.com/bjrobis/tech-degree-project-2.git",
             "images_urls": ["/images/2a.jpg", "/images/2b.jpg"]
         },
         {
             "id": "2",
-            "project name": "Full Stack Conference Registration",
+            "project_name": "Full Stack Conference Registration",
             "description": "Interactive Form",
-            "technologies": ["JavaScript"],
+            "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "",
             "github_link": "https://github.com/bjrobis/tech-degree-project-3.git",
             "images_urls": ["/images/3a.jpg", "/images/3b.jpg"]
         },
         {
             "id": "3",
-            "project name": "Phrase Hunter",
+            "project_name": "Phrase Hunter",
             "description": "A word game",
-            "technologies": ["JavaScript"],
+            "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "",
             "github_link": "https://github.com/bjrobis/tech-degree-project-4.git",
             "images_urls": ["/images/4a.jpg", "/images/4b.jpg", "/images/4c.jpg", "/images/4d.jpg"]
         },
         {
             "id": "4",
-            "project name": "Employee Directory",
+            "project_name": "Employee Directory",
             "description": "Employee Directory",
-            "technologies": ["JavaScript"],
+            "technologies": ["JavaScript", "HTML", "CSS", "API"],
             "live_link": "",
             "github_link": "https://github.com/bjrobis/tech-degree-project-5.git",
             "images_urls": ["/images/5a.jpg", "/images/5b.jpg"]
