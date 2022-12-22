@@ -37,7 +37,8 @@ app.get('/projects/:id', (req, res) => {
     const technologies = projects[id].technologies;
     const gitHub = projects[id].github_link;
     const images = projects[id].images_urls;
-    res.render('project', {id, name, description, technologies, gitHub, images}); 
+    const demo = projects[id].live_link;
+    res.render('project', {id, name, description, technologies, gitHub, images, demo}); 
 });
 
 //404 Not Found Error

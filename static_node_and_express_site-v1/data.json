@@ -3,45 +3,45 @@
         {
             "id": "0",
             "project_name": "Random Quote Generator",
-            "description": "User clicks a button to generate a random quote",
+            "description": "User clicks a button to generate a random quote.",
             "technologies": ["JavaScript", "HTML", "CSS"],
-            "live_link": "",
+            "live_link": "https://bjrobis.github.io/tech-degree-project-1/",
             "github_link": "https://github.com/bjrobis/tech-degree-project-1.git",
             "images_urls": ["/images/1a.jpg", "/images/1b.jpg"]
         },
         {
             "id": "1",
             "project_name": "Student Contact Directory",
-            "description": "Data pagination and filtering",
+            "description": "Uses data pagination and filtering to add 9 contact cards at a time to a page, and adds navigational keys to the bottom to access the entire library of contact cards.",
             "technologies": ["JavaScript", "HTML", "CSS"],
-            "live_link": "",
+            "live_link": "https://bjrobis.github.io/tech-degree-project-2/",
             "github_link": "https://github.com/bjrobis/tech-degree-project-2.git",
             "images_urls": ["/images/2a.jpg", "/images/2b.jpg"]
         },
         {
             "id": "2",
             "project_name": "Full Stack Conference Registration",
-            "description": "Interactive Form",
+            "description": "An interactive form that dynamically changes based on user inputs. Form also checks required fields against specific criteria before form will submit. ",
             "technologies": ["JavaScript", "HTML", "CSS"],
-            "live_link": "",
+            "live_link": "https://bjrobis.github.io/tech-degree-project-3/",
             "github_link": "https://github.com/bjrobis/tech-degree-project-3.git",
             "images_urls": ["/images/3a.jpg", "/images/3b.jpg"]
         },
         {
             "id": "3",
             "project_name": "Phrase Hunter",
-            "description": "A word game",
+            "description": "A word game that pulls a phrase at random from a bank of phrases. The user selects characters from the on-screen keyboard, and when the selected letter is in the secret phrase it reveals the correct letter and marks the keybarod key a different color to mark it correct. If the user is wrong it removes a heart and marks the key a color to mark it incorrect. The game ends when the user either loses all 5 hearts or correctly identifies all the letters in the hidden phrase.",
             "technologies": ["JavaScript", "HTML", "CSS"],
-            "live_link": "",
+            "live_link": "https://bjrobis.github.io/tech-degree-project-4/",
             "github_link": "https://github.com/bjrobis/tech-degree-project-4.git",
             "images_urls": ["/images/4a.jpg", "/images/4b.jpg", "/images/4c.jpg", "/images/4d.jpg"]
         },
         {
             "id": "4",
             "project_name": "Employee Directory",
-            "description": "Employee Directory",
+            "description": "The directory accessing a public API containing contact info data, and pulls the contact info of 12 random people that match criteria put into a query. The user is able to click on a contact card to open up a window that displays more information about the selected person, and then close the opened window to keep viewing the data.",
             "technologies": ["JavaScript", "HTML", "CSS", "API"],
-            "live_link": "",
+            "live_link": "https://bjrobis.github.io/tech-degree-project-5/",
             "github_link": "https://github.com/bjrobis/tech-degree-project-5.git",
             "images_urls": ["/images/5a.jpg", "/images/5b.jpg"]
         }
