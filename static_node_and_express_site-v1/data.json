@@ -44,6 +44,15 @@
             "live_link": "https://bjrobis.github.io/tech-degree-project-5/",
             "github_link": "https://github.com/bjrobis/tech-degree-project-5.git",
             "images_urls": ["/images/5a.jpg", "/images/5b.jpg"]
+        },
+        {
+            "id": "5",
+            "project_name": "Matching Game",
+            "description": "A matching game with a Christmas theme. The user clicks a present to unwrap the gift inside, and tries to find a present with an identical gift. Game ends when the presents are all matched.",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://bjrobis.github.io/Matching-Game/",
+            "github_link": "https://github.com/bjrobis/Matching-Game.git",
+            "images_urls": ["/images/6a.jpg", "/images/6b.jpg", "/images/6c.jpg"]
         }
     ]    
 }
